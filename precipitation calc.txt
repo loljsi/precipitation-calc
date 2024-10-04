@@ -1,0 +1,34 @@
+                                                                               
+#include <iostream>
+using namespace std;
+
+int main() {
+    double jan = 5.78;
+    double feb = 3.76;
+    double mar = 4.17;
+    double apr = 3.18;
+    double may = 1.88;
+    double jun = 1.44;
+    double jul = 0.60;
+    double aug = 0.97;
+    double sep = 1.59;
+    double oct = 3.91;
+    double nov = 6.31;
+    double dec = 5.72;
+
+    double summerTotal = jun + jul + aug;
+
+    double winterTotal = dec + jan + feb;
+    double winterAverage = winterTotal / 3;
+
+    double winterSummerDifference = winterTotal - summerTotal;
+
+    double summerTotal15Years = summerTotal * 15;
+
+    cout << "The total for the summer months is " << summerTotal << " inches." << endl;
+    cout << "The average precipitation is " << winterAverage << " inches." << endl;
+    cout << "Seattle gets around " << winterSummerDifference << " more inches of precipitation in winter than in summer$
+    cout << "The total precipitation in the next 15 years for the summer is " << summerTotal15Years << " inches." << en$
+
+    return 0;
+}
